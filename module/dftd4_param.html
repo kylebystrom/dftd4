@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Documentation for DFT-D4">
+    <meta name="author" content="Grimme group Bonn" >
+    <link rel="icon" href="../favicon.png">
+
+    <title>dftd4_param &ndash; DFT-D4</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/pygments.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/local.css" rel="stylesheet">
+    <link  href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script src="../js/svg-pan-zoom.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">DFT-D4 </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown hidden-xs visible-sm visible-md hidden-lg">
+              <a href="#" class="dropdown-toggle"
+              data-toggle="dropdown" role="button"
+              aria-haspopup="true"
+     aria-expanded="false">Contents <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="../lists/files.html">Source Files</a></li>
+            <li><a href="../lists/modules.html">Modules</a></li>
+            <li><a href="../lists/procedures.html">Procedures</a></li>
+            <li><a href="../lists/absint.html">Abstract Interfaces</a></li>
+                   <li><a href="../lists/types.html">Derived Types</a></li>
+       
+            </ul>
+        
+            </li>
+<li class="visible-xs hidden-sm visible-lg"><a href="../lists/files.html">Source Files</a></li>
+<li class="visible-xs hidden-sm visible-lg"><a href="../lists/modules.html">Modules</a></li>
+<li class="visible-xs hidden-sm visible-lg"><a href="../lists/procedures.html">Procedures</a></li>
+<li class="visible-xs hidden-sm visible-lg"><a href="../lists/absint.html">Abstract Interfaces</a></li>
+                             <li class="visible-xs hidden-sm visible-lg"><a href="../lists/types.html">Derived Types</a></li>
+          </ul>
+        <form action="../search.html" class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" name="q" id="tipue_search_input" autocomplete="off" required>
+        </div>
+<!--
+        <button type="submit" class="btn btn-default">Submit</button>
+-->
+        </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+  <div class="row">
+    <h1>dftd4_param 
+    <small>Module</small>
+    </h1>
+    <div class="row">
+  <div class="col-lg-12">
+<div class="well well-sm">
+  <ul class="list-inline" style="margin-bottom:0px;display:inline">
+     <li><i class="fa fa-list-ol"></i>
+       <a data-toggle="tooltip"
+    data-placement="bottom" data-html="true"
+    title=" 7.4% of total for modules and submodules.">590 statements</a>
+     </li> 
+    <li><i class="fa fa-code"></i><a href="../src/param.f90"> Source File</a></li>
+  </ul>
+  <ol class="breadcrumb in-well text-right">
+     <li><a href='../sourcefile/param.f90.html'>param.f90</a></li>
+     <li class="active">dftd4_param</li>
+  </ol>
+</div>
+</div>
+</div>
+<script>
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+  </div>
+  
+  <div class="row">
+    <div class="col-md-3 hidden-xs hidden-sm visible-md visible-lg">
+    <div id="sidebar">
+  <h3>Contents</h3>
+ 
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#vars-0">Variables</a></h3></div>
+  <div id="vars-0" class="panel-collapse collapse">
+    <div class="list-group">
+      <a class="list-group-item" href="../module/dftd4_param.html#variable-df_enum">df_enum</a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#enums-0">Enumerations</a></h3></div>
+  <div id="enums-0" class="panel-collapse collapse">
+    <div class="list-group">
+      <a class="list-group-item" href="../module/dftd4_param.html#"></a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#funcs-0">Functions</a></h3></div>
+  <div id="funcs-0" class="panel-collapse collapse">
+    <div class="list-group">
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_functional_id">get_functional_id</a>
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-lowercase">lowercase</a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#subs-0">Subroutines</a></h3></div>
+  <div class="list-group">
+    <div id="subs-0" class="panel-collapse collapse">
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_d4eeq_bj_parameter">get_d4eeq_bj_parameter</a>
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_d4eeq_bjatm_parameter">get_d4eeq_bjatm_parameter</a>
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_rational_damping">get_rational_damping</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+    </div>
+    
+    <div class="col-md-9" id='text'>
+    
+<br>        <div class="panel panel-default">
+      <div class="panel-heading">
+  <h3 class="panel-title">Uses</h3>
+      </div>
+      <ul class="list-group">
+      <li class="list-group-item">
+  <ul class="list-inline">
+    <li><a href="https://grimme-lab.github.io/mctc-lib/module/mctc_env.html">mctc_env</a></li>
+    <li><a href='../module/dftd4_damping.html'>dftd4_damping</a></li>
+    <li><a href='../module/dftd4_damping_rational.html'>dftd4_damping_rational</a></li>
+  </ul>
+      </li>
+      </ul>
+    </div>
+
+    
+    <br>
+
+    <section class="visible-xs visible-sm hidden-md">
+      <h3>Contents</h3>
+ 
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#vars-1">Variables</a></h3></div>
+  <div id="vars-1" class="panel-collapse collapse">
+    <div class="list-group">
+      <a class="list-group-item" href="../module/dftd4_param.html#variable-df_enum">df_enum</a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#enums-1">Enumerations</a></h3></div>
+  <div id="enums-1" class="panel-collapse collapse">
+    <div class="list-group">
+      <a class="list-group-item" href="../module/dftd4_param.html#"></a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#funcs-1">Functions</a></h3></div>
+  <div id="funcs-1" class="panel-collapse collapse">
+    <div class="list-group">
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_functional_id">get_functional_id</a>
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-lowercase">lowercase</a>
+    </div>
+  </div>
+</div>
+<div class="panel panel-primary">
+  <div class="panel-heading text-left"><h3 class="panel-title"><a data-toggle="collapse" href="#subs-1">Subroutines</a></h3></div>
+  <div class="list-group">
+    <div id="subs-1" class="panel-collapse collapse">
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_d4eeq_bj_parameter">get_d4eeq_bj_parameter</a>
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_d4eeq_bjatm_parameter">get_d4eeq_bjatm_parameter</a>
+      <a class="list-group-item" href="../module/dftd4_param.html#proc-get_rational_damping">get_rational_damping</a>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <br class="visible-xs visible-sm hidden-md">
+
+
+    <section>
+    <h2>Variables</h2>
+    <table class="table table-striped varlist">
+<thead><tr><th>Type</th><th>Visibility</th><th>Attributes</th><th></th><th>Name</th><th></th><th>Initial</th><th></th></thead>
+<tbody>
+<tr>
+  <td><span class="anchor" id="variable-df_enum"></span>integer,</td>
+<td>private,</td>  <td>parameter</td><td>::</td>
+  <td><strong>df_enum</strong></td><td> =</td><td>kind(p_invalid)</td><td></td>
+</tr>
+</tbody>
+</table>
+
+    </section>
+    <br>
+    
+    <section>
+    <h2>Enumerations</h2>
+        <div class="panel panel-default">
+  <div class="panel-heading codesum"><span class="anchor" id=""></span><h3>enum, bind(c)</h3></div>
+  <div class="panel-body">
+     <h4>Enumerators</h4>
+        <table class="table table-striped varlist">
+        <tbody>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_invalid</strong></td><td> = </td><td>0</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hf</strong></td><td> = </td><td>1</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_blyp</strong></td><td> = </td><td>2</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_bpbe</strong></td><td> = </td><td>3</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_bp</strong></td><td> = </td><td>4</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_bpw</strong></td><td> = </td><td>5</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lb94</strong></td><td> = </td><td>6</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpwlyp</strong></td><td> = </td><td>7</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpwpw</strong></td><td> = </td><td>8</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_olyp</strong></td><td> = </td><td>9</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_opbe</strong></td><td> = </td><td>10</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbe</strong></td><td> = </td><td>11</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_rpbe</strong></td><td> = </td><td>12</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revpbe</strong></td><td> = </td><td>13</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pw86pbe</strong></td><td> = </td><td>14</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_rpw86pbe</strong></td><td> = </td><td>15</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pw91</strong></td><td> = </td><td>16</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pwp</strong></td><td> = </td><td>17</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_xlyp</strong></td><td> = </td><td>18</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b97</strong></td><td> = </td><td>19</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_tpss</strong></td><td> = </td><td>20</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revtpss</strong></td><td> = </td><td>21</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_scan</strong></td><td> = </td><td>22</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_rscan</strong></td><td> = </td><td>23</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_r2scan</strong></td><td> = </td><td>24</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b1lyp</strong></td><td> = </td><td>25</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b3lyp</strong></td><td> = </td><td>26</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_bhlyp</strong></td><td> = </td><td>27</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b1p</strong></td><td> = </td><td>28</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b3p</strong></td><td> = </td><td>29</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b1pw</strong></td><td> = </td><td>30</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b3pw</strong></td><td> = </td><td>31</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_o3lyp</strong></td><td> = </td><td>32</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revpbe0</strong></td><td> = </td><td>33</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revpbe38</strong></td><td> = </td><td>34</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbe0</strong></td><td> = </td><td>35</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pwp1</strong></td><td> = </td><td>36</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pw1pw</strong></td><td> = </td><td>37</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpw1pw</strong></td><td> = </td><td>38</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpw1lyp</strong></td><td> = </td><td>39</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pw6b95</strong></td><td> = </td><td>40</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_tpssh</strong></td><td> = </td><td>41</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_tpss0</strong></td><td> = </td><td>42</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_x3lyp</strong></td><td> = </td><td>43</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m06l</strong></td><td> = </td><td>44</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m06</strong></td><td> = </td><td>45</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m062x</strong></td><td> = </td><td>46</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b97d</strong></td><td> = </td><td>47</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_wb97</strong></td><td> = </td><td>48</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_wb97x</strong></td><td> = </td><td>49</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b97m</strong></td><td> = </td><td>50</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_wb97m</strong></td><td> = </td><td>51</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_camb3lyp</strong></td><td> = </td><td>52</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lcblyp</strong></td><td> = </td><td>53</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lh07tsvwn</strong></td><td> = </td><td>54</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lh07ssvwn</strong></td><td> = </td><td>55</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lh12ctssirpw92</strong></td><td> = </td><td>56</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lh12ctssifpw92</strong></td><td> = </td><td>57</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lh14tcalpbe</strong></td><td> = </td><td>58</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lh20t</strong></td><td> = </td><td>59</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b2plyp</strong></td><td> = </td><td>60</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b2gpplyp</strong></td><td> = </td><td>61</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpw2plyp</strong></td><td> = </td><td>62</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pwpb95</strong></td><td> = </td><td>63</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dsdblyp</strong></td><td> = </td><td>64</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dsdpbe</strong></td><td> = </td><td>65</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dsdpbeb95</strong></td><td> = </td><td>66</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dsdpbep86</strong></td><td> = </td><td>67</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dsdsvwn</strong></td><td> = </td><td>68</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dodblyp</strong></td><td> = </td><td>69</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dodpbe</strong></td><td> = </td><td>70</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dodpbeb95</strong></td><td> = </td><td>71</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dodpbep86</strong></td><td> = </td><td>72</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dodsvwn</strong></td><td> = </td><td>73</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbe0_2</strong></td><td> = </td><td>74</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbe0_dh</strong></td><td> = </td><td>75</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hf3c</strong></td><td> = </td><td>76</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hf3cv</strong></td><td> = </td><td>77</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbeh3c</strong></td><td> = </td><td>78</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b973c</strong></td><td> = </td><td>79</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hsesol</strong></td><td> = </td><td>80</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pwgga</strong></td><td> = </td><td>81</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dftb_3ob</strong></td><td> = </td><td>82</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dftb_mio</strong></td><td> = </td><td>83</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dftb_ob2</strong></td><td> = </td><td>84</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dftb_matsci</strong></td><td> = </td><td>85</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_dftb_pbc</strong></td><td> = </td><td>86</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hcth120</strong></td><td> = </td><td>87</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_ptpss</strong></td><td> = </td><td>88</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lcwpbe</strong></td><td> = </td><td>89</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_bmk</strong></td><td> = </td><td>90</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b1b95</strong></td><td> = </td><td>91</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pwb6k</strong></td><td> = </td><td>92</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_otpss</strong></td><td> = </td><td>93</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_ssb</strong></td><td> = </td><td>94</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revssb</strong></td><td> = </td><td>95</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbesol</strong></td><td> = </td><td>96</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hse06</strong></td><td> = </td><td>97</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbexalpha</strong></td><td> = </td><td>98</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbehpbe</strong></td><td> = </td><td>99</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hcth407</strong></td><td> = </td><td>100</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_n12</strong></td><td> = </td><td>101</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pkzb</strong></td><td> = </td><td>102</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_thcth</strong></td><td> = </td><td>103</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m11l</strong></td><td> = </td><td>104</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mn15l</strong></td><td> = </td><td>105</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpwb1k</strong></td><td> = </td><td>106</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpw1kcis</strong></td><td> = </td><td>107</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpwkcis1k</strong></td><td> = </td><td>108</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbeh1pbe</strong></td><td> = </td><td>109</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_pbe1kcis</strong></td><td> = </td><td>110</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b97_1</strong></td><td> = </td><td>111</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b97_2</strong></td><td> = </td><td>112</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_b98</strong></td><td> = </td><td>113</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hiss</strong></td><td> = </td><td>114</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hse03</strong></td><td> = </td><td>115</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revtpssh</strong></td><td> = </td><td>116</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_tpss1kcis</strong></td><td> = </td><td>117</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m05</strong></td><td> = </td><td>118</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m052x</strong></td><td> = </td><td>119</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_m08hx</strong></td><td> = </td><td>120</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_lcwhpbe</strong></td><td> = </td><td>121</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mn12l</strong></td><td> = </td><td>122</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_tauhcthhyb</strong></td><td> = </td><td>123</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_sogga11x</strong></td><td> = </td><td>124</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_n12sx</strong></td><td> = </td><td>125</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mn12sx</strong></td><td> = </td><td>126</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mn15</strong></td><td> = </td><td>127</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_glyp</strong></td><td> = </td><td>128</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_bop</strong></td><td> = </td><td>129</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_mpw1b95</strong></td><td> = </td><td>130</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revpbe0dh</strong></td><td> = </td><td>131</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revtpss0</strong></td><td> = </td><td>132</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revdsdpbep86</strong></td><td> = </td><td>133</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revdsdpbe</strong></td><td> = </td><td>134</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revdsdblyp</strong></td><td> = </td><td>135</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_revdodpbep86</strong></td><td> = </td><td>136</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_am05</strong></td><td> = </td><td>137</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hse12</strong></td><td> = </td><td>138</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_hse12s</strong></td><td> = </td><td>139</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_r2scanh</strong></td><td> = </td><td>140</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_r2scan0</strong></td><td> = </td><td>141</td><td></td>
+        </tr>
+        <tr>
+          <td>enumerator</td><td>::</td>
+          <td><strong>p_r2scan50</strong></td><td> = </td><td>142</td><td></td>
+        </tr>
+        </tbody>
+        </table>
+    
+  </div>
+  </div>
+
+    </section>
+    <br>
+    
+
+    
+    
+ 
+    <section>
+    <h2>Functions</h2>
+      <div class="panel panel-default">
+  <div class="panel-heading codesum"><span class="anchor" id="proc-get_functional_id"></span><h3>private pure function <a href='../proc/get_functional_id.html'>get_functional_id</a>(df) result(num)</h3></div>
+  <div class="panel-body">
+       
+<p>Get the unique identifier for most functionals, returns none if
+the functional was not known at the time I implemented this mapping</p>
+    
+<h4>Arguments</h4>      <table class="table table-striped varlist">
+<thead><tr><th>Type</th><th>Intent</th><th>Optional</th><th>Attributes</th><th></th><th>Name</th><th></th></thead>
+<tbody>
+<tr>
+  <td><span class="anchor" ></span>character(len=*),</td>
+<td>intent(in)</td>
+  <td></td>  <td></td><td>::</td>
+  <td><strong>df</strong></td><td></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Return Value <small>integer(kind=df_enum)</small></h4>  
+
+  </div>
+  </div>
+
+      <div class="panel panel-default">
+  <div class="panel-heading codesum"><span class="anchor" id="proc-lowercase"></span><h3>private pure function <a href='../proc/lowercase.html'>lowercase</a>(str) result(lcstr)</h3></div>
+  <div class="panel-body">
+       
+<p>Convert string to lower case</p>
+    
+<h4>Arguments</h4>      <table class="table table-striped varlist">
+<thead><tr><th>Type</th><th>Intent</th><th>Optional</th><th>Attributes</th><th></th><th>Name</th><th></th></thead>
+<tbody>
+<tr>
+  <td><span class="anchor" ></span>character(len=*),</td>
+<td>intent(in)</td>
+  <td></td>  <td></td><td>::</td>
+  <td><strong>str</strong></td><td></td>
+</tr>
+</tbody>
+</table>
+
+<h4>Return Value <small>character(len=len_trim)</small></h4>  
+
+  </div>
+  </div>
+
+    </section>
+    <br>
+
+    <section>
+    <h2>Subroutines</h2>
+      <div class="panel panel-default">
+  <div class="panel-heading codesum"><span class="anchor" id="proc-get_d4eeq_bj_parameter"></span><h3>private subroutine <a href='../proc/get_d4eeq_bj_parameter.html'>get_d4eeq_bj_parameter</a>(dfnum, param, s9)</h3></div>
+  <div class="panel-body">
+           
+<h4>Arguments</h4>      <table class="table table-striped varlist">
+<thead><tr><th>Type</th><th>Intent</th><th>Optional</th><th>Attributes</th><th></th><th>Name</th><th></th></thead>
+<tbody>
+<tr>
+  <td><span class="anchor" ></span>integer(kind=df_enum),</td>
+<td>intent(in)</td>
+  <td></td>  <td></td><td>::</td>
+  <td><strong>dfnum</strong></td><td></td>
+</tr>
+<tr>
+  <td><span class="anchor" ></span>class(<a href='../type/damping_param.html'>damping_param</a>),</td>
+<td>intent(out),</td>
+  <td></td>  <td>allocatable</td><td>::</td>
+  <td><strong>param</strong></td><td></td>
+</tr>
+<tr>
+  <td><span class="anchor" ></span>real(kind=wp),</td>
+<td>intent(in),</td>
+  <td>optional</td>  <td></td><td>::</td>
+  <td><strong>s9</strong></td><td></td>
+</tr>
+</tbody>
+</table>
+
+
+  </div>
+  </div>
+
+      <div class="panel panel-default">
+  <div class="panel-heading codesum"><span class="anchor" id="proc-get_d4eeq_bjatm_parameter"></span><h3>private subroutine <a href='../proc/get_d4eeq_bjatm_parameter.html'>get_d4eeq_bjatm_parameter</a>(dfnum, param, s9)</h3></div>
+  <div class="panel-body">
+           
+<h4>Arguments</h4>      <table class="table table-striped varlist">
+<thead><tr><th>Type</th><th>Intent</th><th>Optional</th><th>Attributes</th><th></th><th>Name</th><th></th></thead>
+<tbody>
+<tr>
+  <td><span class="anchor" ></span>integer(kind=df_enum),</td>
+<td>intent(in)</td>
+  <td></td>  <td></td><td>::</td>
+  <td><strong>dfnum</strong></td><td></td>
+</tr>
+<tr>
+  <td><span class="anchor" ></span>class(<a href='../type/damping_param.html'>damping_param</a>),</td>
+<td>intent(out),</td>
+  <td></td>  <td>allocatable</td><td>::</td>
+  <td><strong>param</strong></td><td></td>
+</tr>
+<tr>
+  <td><span class="anchor" ></span>real(kind=wp),</td>
+<td>intent(in),</td>
+  <td>optional</td>  <td></td><td>::</td>
+  <td><strong>s9</strong></td><td></td>
+</tr>
+</tbody>
+</table>
+
+
+  </div>
+  </div>
+
+      <div class="panel panel-default">
+  <div class="panel-heading codesum"><span class="anchor" id="proc-get_rational_damping"></span><h3>public subroutine <a href='../proc/get_rational_damping.html'>get_rational_damping</a>(functional, param, s9)</h3></div>
+  <div class="panel-body">
+           
+<h4>Arguments</h4>      <table class="table table-striped varlist">
+<thead><tr><th>Type</th><th>Intent</th><th>Optional</th><th>Attributes</th><th></th><th>Name</th><th></th></thead>
+<tbody>
+<tr>
+  <td><span class="anchor" ></span>character(len=*),</td>
+<td>intent(in)</td>
+  <td></td>  <td></td><td>::</td>
+  <td><strong>functional</strong></td><td></td>
+</tr>
+<tr>
+  <td><span class="anchor" ></span>class(<a href='../type/damping_param.html'>damping_param</a>),</td>
+<td>intent(out),</td>
+  <td></td>  <td>allocatable</td><td>::</td>
+  <td><strong>param</strong></td><td></td>
+</tr>
+<tr>
+  <td><span class="anchor" ></span>real(kind=wp),</td>
+<td>intent(in),</td>
+  <td>optional</td>  <td></td><td>::</td>
+  <td><strong>s9</strong></td><td></td>
+</tr>
+</tbody>
+</table>
+
+
+  </div>
+  </div>
+
+    </section>    
+    <br>
+    
+    </div>
+  </div>
+
+    <hr>    
+    </div> <!-- /container -->
+    <footer>
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-6"><p>DFT-D4 was developed by Grimme group Bonn<br>&copy; 2022 
+</p>
+        </div>
+        <div class="col-xs-6 col-md-6">
+          <p class="text-right">
+            Documentation generated by 
+            <a href="https://github.com/Fortran-FOSS-Programmers/ford">FORD</a>
+ on 2022-10-21 17:02            </p>
+        </div>
+      </div>
+      <br>
+      </div> <!-- /container -->    
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+-->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- MathJax JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } },
+        jax: ['input/TeX','input/MathML','output/HTML-CSS'],
+        extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script src="../tipuesearch/tipuesearch_content.js"></script>
+    <script src="../tipuesearch/tipuesearch_set.js"></script>
+    <script src="../tipuesearch/tipuesearch.js"></script>
+    
+  </body>
+</html>
